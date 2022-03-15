@@ -12,4 +12,6 @@ def get_ip():
         s.close()
     print(IP)
 
-get_ip()
+
+if __name__ == "__main__": 
+    get_ip()
